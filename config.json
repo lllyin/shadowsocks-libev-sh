@@ -1,0 +1,9 @@
+{
+  "server":"0.0.0.0",
+  "port_password":{
+  "25":"zjt123"
+  },
+  "timeout":600,
+  "fast_open": false,
+  "method":"chacha20-ietf-poly1305"
+  }
