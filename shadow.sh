@@ -26,11 +26,11 @@ sudo make install
 # 创建配置文件目录
 rm -rf /etc/shadowsocks-libev && mkdir /etc/shadowsocks-libev
 touch /etc/shadowsocks-libev/config.json
-cat ./config.json > /etc/shadowsocks-libev/config.json
+cat ../config.json > /etc/shadowsocks-libev/config.json
 
 # 创建服务文件
 touch /usr/lib/systemd/system/ssmanager.service
-cat ./ssmanager.service > /usr/lib/systemd/system/ssmanager.service
+cat ../ssmanager.service > /usr/lib/systemd/system/ssmanager.service
 
 # 检查bbr
 sysctl net.ipv4.tcp_available_congestion_control
