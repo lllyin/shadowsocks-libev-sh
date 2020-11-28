@@ -5,8 +5,8 @@ Description=Shadowsocks Manager Server
 User=root
 Group=root
 Type=simple
-ExecStart=/usr/local/bin/ss-manager --manager-address 127.0.0.1:8899 -c /etc/shadowsocks-libev/config.json
-ExecStop=/usr/local/bin/ss-manager --manager-address 127.0.0.1:8899 -c /etc/shadowsocks-libev/config.json
+ExecStart=/usr/local/bin/ss-manager --manager-address 127.0.0.1:8899 -u -c /etc/shadowsocks-libev/config.json
+ExecStop=/usr/local/bin/ss-manager --manager-address 127.0.0.1:8899 -u -c /etc/shadowsocks-libev/config.json
 
 [Install]
 WantedBy=multi-user.target

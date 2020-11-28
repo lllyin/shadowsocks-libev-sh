@@ -19,7 +19,10 @@
 2. 停止服务： `systemctl stop ssmanager.service`
 3. 查看服务状态/日志： `systemctl status ssmanager.service -l`
 
+## net-speed
 
 ## 说明
 1. `config.json` 用于配置用户、密码（JSON配置，支持多用户）
+
+配置`config.json`请到`/etc/shadowsocks-libev/config.json`目录。
 2. `ssmanager.service` 用户把ssmanager加入系统Service
