@@ -12,6 +12,7 @@ yum-config-manager --enable epel
 yum install udns-devel -y
 yum install git -y
 
+
 yum install gcc gettext autoconf libtool automake make pcre-devel asciidoc xmlto c-ares-devel libev-devel libsodium-devel mbedtls-devel -y
 
 
